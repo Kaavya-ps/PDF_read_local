@@ -8,9 +8,10 @@ from dotenv import load_dotenv
 import os
 import google.generativeai as genai
 
-load_dotenv()
-os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+# load_dotenv()
+# os.getenv("GOOGLE_API_KEY")
+# genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key='AIzaSyAWX5BbhhFspCyuTzsyV90N-S5J0DYZO9Y')
 
 def get_conversational_chain():
 
